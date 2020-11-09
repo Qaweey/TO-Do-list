@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    position: fixed;
+    margin: 0 ;
+    background-image: url("image/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+#textvalue{
+    width: 40%;
+    padding-left: 1.4rem;
+    height: 50px;
+    border: 0.5px solid black;
+    border-radius: 30px;  
+    font-size: larger;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+#textvalue:focus{
+    outline: none;
+}
+
+.Btn{
+    padding: 1rem;
+    background-color: rgb(100, 184, 100);
+    font-size: large;
+    border-radius:20px ;
+}
+
+.Btn:hover,
+.Btn :active{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+.Btn:focus{
+    outline: none;
+}
+
+.myform{
+    position: relative;
+    left: 25%;
+    margin-top: 0.5rem;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+
+#appendedvalue{
+    position: relative;
+    top: 1.5rem;
+    width: 50vw;
+    user-select: none;
+    margin: 0 auto;
+}
+
+.appendcontent{
+    font-size: 1.2rem;
+    margin: 1.2rem;
+    padding: .5rem;
+    width: 80%;
+    border-radius: 5px;
+    min-height: 30px;
+    background-color: white;
+}
+
+.checkedeffect{
+    text-decoration: line-through;
+}
+
+.fa-times{
+   float: right;
+}
